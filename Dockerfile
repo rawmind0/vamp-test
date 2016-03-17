@@ -3,3 +3,5 @@ MAINTAINER Raul Sanchez <rawmind@gmail.com>
 
 # Adding files
 ADD root /
+
+EXPOSE 80
