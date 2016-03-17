@@ -8,8 +8,14 @@ $(document).ready(function() {
     }
 
     hipster(function(data) {
-      $('#content').html(data.text);
+      $('#content1').html(data.text);
     }, function(data) {
-      $('#content').html(data.text);
+      $('#content1').html(data.text);
+    });
+
+    hipster(function(data) {
+      $('#content2').html(data.text);
+    }, function(data) {
+      $('#content2').html(data.text);
     });
 });
